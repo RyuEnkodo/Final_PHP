@@ -52,33 +52,25 @@ include "_header.php"
         </div>
     </article>
 
-    <div class="card-group">
-  <div class="card">
-    <img src="../IMG/mandalorian2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../IMG/mandalorian2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../IMG/mandalorian2.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
+    <article class="card">
+        <img src="../IMG/mandalorian2.jpg" alt="Mandalorian" class="img">
+        <div class="contenedor">
+            <h2 class="title">The Mandalorians</h2>
+            <p class="copy">The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common culture, creed, and code.</p>
+            <a href="https://www.disneyplus.com/es-ar/welcome/the-mandalorian?cid=DSS-Search-Google-71700000075917824-&s_kwcid=AL!8468!3!496770105075!e!!g!!mandalorian&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0cbiguUCcw8O8ibtLz-XCJLKNM0f4RhL6LajWg6SQrItoLjiOLbmoaAnisEALw_wcB&gclsrc=aw.ds" class="cta">Join Us!</a>
+        </div>
+    </article>
 
+    <article class="card">
+        <img src="../IMG/mandalorian2.jpg" alt="Mandalorian" class="img">
+        <div class="contenedor">
+            <h2 class="title">The Mandalorians</h2>
+            <p class="copy">The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common culture, creed, and code.</p>
+            <a href="https://www.disneyplus.com/es-ar/welcome/the-mandalorian?cid=DSS-Search-Google-71700000075917824-&s_kwcid=AL!8468!3!496770105075!e!!g!!mandalorian&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0cbiguUCcw8O8ibtLz-XCJLKNM0f4RhL6LajWg6SQrItoLjiOLbmoaAnisEALw_wcB&gclsrc=aw.ds" class="cta">Join Us!</a>
+        </div>
+    </article>
+
+ 
   
 </div>
 
