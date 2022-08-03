@@ -1,28 +1,15 @@
-<?php
-include "_header.php" 
-
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/estilos.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>HOME</title>
+    <?php require_once("_header.php") ?>
+    <title>Inicio</title>
 
 </head>
 
 <body>
 
 <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner contenedor_carrusel">
     <div class="carousel-item active">
       <img src="https://pbs.twimg.com/media/FIX0fdYWYAAwTl5?format=jpg&name=large" class="d-block w-100" alt="...">
     </div>
@@ -43,44 +30,44 @@ include "_header.php"
     <span class="visually-hidden">Next</span>
   </button>
  
-  <article class="card">
-        <img src="../IMG/mandalorian2.jpg" alt="Mandalorian" class="img">
-        <div class="contenedor">
-            <h2 class="title">The Mandalorians</h2>
-            <p class="copy">The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common culture, creed, and code.</p>
-            <a href="https://www.disneyplus.com/es-ar/welcome/the-mandalorian?cid=DSS-Search-Google-71700000075917824-&s_kwcid=AL!8468!3!496770105075!e!!g!!mandalorian&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0cbiguUCcw8O8ibtLz-XCJLKNM0f4RhL6LajWg6SQrItoLjiOLbmoaAnisEALw_wcB&gclsrc=aw.ds" class="cta">Join Us!</a>
-        </div>
-    </article>
-
-    <article class="card">
-        <img src="../IMG/mandalorian2.jpg" alt="Mandalorian" class="img">
-        <div class="contenedor">
-            <h2 class="title">The Mandalorians</h2>
-            <p class="copy">The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common culture, creed, and code.</p>
-            <a href="https://www.disneyplus.com/es-ar/welcome/the-mandalorian?cid=DSS-Search-Google-71700000075917824-&s_kwcid=AL!8468!3!496770105075!e!!g!!mandalorian&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0cbiguUCcw8O8ibtLz-XCJLKNM0f4RhL6LajWg6SQrItoLjiOLbmoaAnisEALw_wcB&gclsrc=aw.ds" class="cta">Join Us!</a>
-        </div>
-    </article>
-
-    <article class="card">
-        <img src="../IMG/mandalorian2.jpg" alt="Mandalorian" class="img">
-        <div class="contenedor">
-            <h2 class="title">The Mandalorians</h2>
-            <p class="copy">The Mandalorians were a clan-based cultural group that was composed of members from multiple species all bound by a common culture, creed, and code.</p>
-            <a href="https://www.disneyplus.com/es-ar/welcome/the-mandalorian?cid=DSS-Search-Google-71700000075917824-&s_kwcid=AL!8468!3!496770105075!e!!g!!mandalorian&gclid=Cj0KCQjwpreJBhDvARIsAF1_BU0cbiguUCcw8O8ibtLz-XCJLKNM0f4RhL6LajWg6SQrItoLjiOLbmoaAnisEALw_wcB&gclsrc=aw.ds" class="cta">Join Us!</a>
-        </div>
-    </article>
-
- 
   
+
+</div>
+
+<div class="contenedor_cards">
+
+<div class="card bg-dark" style="width: 18rem;">
+  <img src="../IMG/morbius.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title">Morbius</h2>
+    <p class="card-text">Nueva entrega de la saga de vampiros Spin-off (Ultraviolet), más atrapante que nunca.</p>
+  </div>
+</div>
+<div class="card bg-dark" style="width: 18rem;">
+  <img src="../IMG/light.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title">Lightyear</h2>  
+    <p class="card-text">Nueva pelicula de Toy Story, con impresionante final.</p>
+  </div>
+</div>
+<div class="card bg-dark" style="width: 18rem;">
+  <img src="../IMG/freeguy1.jpg" class="card-img-top" alt="...">
+  <div class="card-body ">
+    <h2 class="card-title">Free Guy</h2>
+    <p class="card-text ">Una película cómica del actor de "Deadpool", el cual transcurre dentro de un juego, una serie que desafía la realidad.</p>
+  </div>
+</div>
+
+</div>
+
 </div>
 
 
 
 </div>
-</body>
 <?php
 include "_footer.php" 
-
 ?>
+</body>
 </html>
 

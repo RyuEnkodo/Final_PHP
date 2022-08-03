@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <form action="confirmacion.php" id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="Nombre">Nombre :</label>
+                <input type="text" id="Nombre" name="Nombre" required="true" />
+            </div>
+
+            <div class="elemento">
+                <label for="Nombre">Apellido :</label>
+                <input type="text" id="Apellido" name="Apellido" required="true" />
+            </div>
+
+            <div class="elemento">
+                <label for="Email">E-mail :</label>
+                <input type="email" id="Email" name="Email" required="true" />
+            </div>
+
+            <div class="elemento">
+                <textarea placeholder="Deje su Mensaje Aqui" name="Mensaje" id="Mensaje" rows="8" cols="60"
+                    required="true"></textarea>
+            </div>
+
+            <p>Recuerde que para poder enviar la informacion debe
+                aceptar los <a href="index.php"><strong>Términos y Condiciones.</strong></a></p>
+
+            <div>
+                <label for="Check">
+                    <input type="checkbox" id="Check" />
+                    <pre>Acepto Términos y Condiciones.</pre>
+                </label>
+            </div>
+
+            <div class="elemento">
+                <input type="submit" value="enviar" id="Envio" disabled="disabled" onclick="validar_info()" />
+            </div>
+        </form>
+    </div>
+    <script src="JS/Funciones.js"></script>
+</body>
+
+</html>
